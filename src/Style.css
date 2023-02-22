@@ -1,0 +1,152 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content--wrapper {
+    width: 273px;
+    
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    border-radius: 13px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.input--wrapper {
+    width: 244px;
+    height: 35px;
+    display: flex;
+    gap: 8px;
+    padding: 14px 0 0 17px;
+}
+.input_box {
+    width: 132px;
+    border: 1px solid #DDDDDD;
+    border-radius: 7px;
+    padding-left: 12px;
+}
+.add_btn {
+    width: 86px;
+    height: 35px;
+    border-radius: 10px;
+    transition: background 0.3s;
+    background-color: #333;
+    color: beige;;
+    cursor: pointer;
+}
+.add_btn:hover {
+    background-color: #6948C6;
+    color: beige;
+}
+
+.content_area--wrapper {
+    margin: 21px 0 21px 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content_box--wrapper {
+    width: 244px;
+    height: 35px;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+
+.content_box {
+    width: 194px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+.edit_btn {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.delete_btn {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 15px 0 7px;
+}
+.edit_btn_image {
+    width: 14px;
+    height: 14px;
+}
+.delete_btn_image {
+    width: 14px;
+    height: 14px;
+}
+.change_content {
+    width: 132px;
+    border: 1px solid #DDDDDD;
+    border-radius: 7px;
+    padding-left: 12px;
+}
+
+.content_box--wrapper.change {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.change_content {
+    width: 158px;
+    height: 23px;
+    margin-left: 8px;
+    border: 1px solid #DDDDDD;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.change_btn {
+    width: 55px;
+    height: 23px;
+    margin-right: 8px;
+    border-radius: 7px;
+    transition: background 0.3s;
+    color: beige;;
+    background-color: #333;
+    cursor: pointer;
+}
+.change_btn:hover {
+    background-color: #6948C6;
+    color: beige;
+}
+
+
+/*
+.box {
+    width: 609px;
+    height: 205px;
+    margin-left: 24px;
+    margin-bottom: 24;
+    background-color: #D9D9D9;
+    display: none;
+}
+.box.active {
+    display: block;
+}
+*/
