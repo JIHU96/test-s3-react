@@ -93,9 +93,9 @@ const App = () => {
                     () => {
                     setEditmode((current => !current));
                     }
-                }><img className="edit_btn_image" src="img/edit_btn.svg"/></button>
+                }><img className="edit_btn_image" alt='is_edit_btn' src="img/edit_btn.svg"/></button>
                 <button className="delete_btn" onClick={() => {deleteMemo(props.item.id);
-                }}><img className="delete_btn_image" src="img/delete_btn.svg"/></button>
+                }}><img className="delete_btn_image" alt='is_delete_btn' src="img/delete_btn.svg"/></button>
             </div>
             );
 
